@@ -21,7 +21,7 @@ class ApiController < ApplicationController
 	end
 
 
-	# params:
+	# params:f
 	#	card_id
 	# returns:
 	# balance
