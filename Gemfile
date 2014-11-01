@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.18'
 # gem 'sqlite3'
-gem 'pg'
+gem 'mysql2'
 gem 'sass', '3.2.13'  # 3.3 has a bug that causes cannot dump anonymous class warnings
 
 

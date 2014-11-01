@@ -1,0 +1,9 @@
+{
+"InvoiceNo":"1",
+"RefNo":"1",
+"Memo":"Team2 Money2020",
+"AccountSource":"Swiped",
+"AcctNo":"6050110010032766608",
+"ExpDate":"0816",
+"OperatorID":"money2020",
+}

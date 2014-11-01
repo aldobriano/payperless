@@ -1,0 +1,18 @@
+{
+  "ResponseOrigin": "Processor",
+  "DSIXReturnCode": "000000",
+  "CmdStatus": "Approved",
+  "TextResponse": "Approved",
+  "UserTraceData": "",
+  "MerchantID": "003503902913105",
+  "TranType": "PrePaid",
+  "TranCode": "Issue",
+  "InvoiceNo": "1",
+  "OperatorID": "money2020",
+  "AcctNo": "6050110010032766608",
+  "RefNo": "641083",
+  "AuthCode": "641083",
+  "Authorize": "1.00",
+  "Purchase": "1.00",
+  "Balance": "1.00"
+}
