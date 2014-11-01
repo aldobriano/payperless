@@ -27,9 +27,9 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  reconnect: true
-  database: yiftee_production
+  reconnect: false
+  database: payperless_development
   pool: 5
   username: yiftee
   password: WeyeNotIT
-  socket: /tmp/mysql.sock
+  socket: /var/lib/mysql/mysql.sock
