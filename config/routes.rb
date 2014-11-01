@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+
+  
+  post 'api/issue_store_card', :to => 'api#issue_store_card', :defaults => { :format => 'json' }
+  get 'api/check_card_balance', :to => 'api#check_card_balance', :defaults => { :format => 'json' }
+  get 'api/get_all_transactions', :to => 'api#get_all_transactions', :defaults => { :format => 'json' }
+  get 'api/get_mercury_merchants', :to => 'api#get_mercury_merchants', :defaults => { :format => 'json' }
+  get 'api/login_user', :to => 'api#login_user', :defaults => { :format => 'json' }
+
+  root 'api#check_card_balance'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
