@@ -28,7 +28,7 @@ group :assets do
 end
 
 gem 'jquery-rails', "~> 2.1.2"
-
+gem 'mysql2'
 group :development, :test do
   gem 'rspec-rails' #, '2.6.1'
   gem 'timecop'
@@ -36,11 +36,11 @@ group :development, :test do
   gem 'rb-fsevent'
   gem 'ruby_gntp'
   gem 'guard-rspec'
-  gem 'mysql2'
+  
 end
 
 group :production do
-	gem 'mysql2'
+
 end
 
 
